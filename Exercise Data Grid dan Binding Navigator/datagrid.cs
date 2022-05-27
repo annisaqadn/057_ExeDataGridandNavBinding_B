@@ -30,5 +30,10 @@ namespace Exercise_Data_Grid_dan_Binding_Navigator
             menu panggil = new menu();
             panggil.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

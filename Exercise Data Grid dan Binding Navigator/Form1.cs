@@ -21,15 +21,21 @@ namespace Exercise_Data_Grid_dan_Binding_Navigator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == Username && textBox2.Text == Password)
+            if (textBox1.Text == Username && textBox2.Text == Password)
             {
                 this.Hide();
                 menu panggil = new menu();
                 panggil.Show();
-            }else if (textBox1.Text == "" || textBox1.Text == "")
+            } else if (textBox1.Text == "" || textBox1.Text == "")
             {
                 MessageBox.Show("Mohon memasukkan Username dan Password!");
-            }else
+            } else if (checkBox1.Checked)
+            {
+                this.Hide();
+                menu panggil = new menu();
+                panggil.Show();
+            }
+            else
             {
                 MessageBox.Show("Username dan Password Anda Salah!");
             }

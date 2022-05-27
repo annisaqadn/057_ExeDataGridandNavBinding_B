@@ -128,9 +128,9 @@ namespace Exercise_Data_Grid_dan_Binding_Navigator
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(79, 271);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(95, 17);
+            this.checkBox1.Size = new System.Drawing.Size(118, 17);
             this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Remember Me";
+            this.checkBox1.Text = "Term and Condition";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
