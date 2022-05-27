@@ -33,7 +33,9 @@ namespace Exercise_Data_Grid_dan_Binding_Navigator
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            this.Hide();
+            viewdatagrid panggil = new viewdatagrid();
+            panggil.Show();
         }
     }
 }
